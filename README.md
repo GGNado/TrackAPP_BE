@@ -1,6 +1,6 @@
 # TrackAPP_BE
+Semplice BE per \[github.com/GGNado/Flutter_Corso\](https://github.com/GGNado/Flutter_Corso)
 
-Semplice BE per Flutter TrackAPP.
 
 ## API Endpoints
 
