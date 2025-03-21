@@ -1,5 +1,7 @@
 # TrackAPP_BE
 
+Semplice BE per Flutter TrackAPP.
+
 ## API Endpoints
 
 ### Get All Expenses
