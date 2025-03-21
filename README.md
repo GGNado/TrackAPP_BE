@@ -1,5 +1,5 @@
 # TrackAPP_BE
-Semplice BE per [github.com/GGNado/Flutter_Corso](https://github.com/GGNado/Flutter_Corso/tree/main/3-Flutter-Tracker-APP/track_app)
+Semplice BE per [Flutter Track App](https://github.com/GGNado/Flutter_Corso/tree/main/3-Flutter-Tracker-APP/track_app)
 
 
 ## API Endpoints
