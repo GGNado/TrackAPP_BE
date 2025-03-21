@@ -33,11 +33,10 @@ public class ExpenseServiceImpl implements ExpenseService {
     public void deleteExpense(String nome, String data) {
         List<Expense> expenses = expenseRepo.findAll();
 
-        System.out.println(expenses);
-
         for (Expense expense : expenses) {
-            System.out.println("Sto controllando " + expense.getNome() + " e " + expense.getData() + " con " + nome + " e " + data);
-            if (expense.getNome().equalsIgnoreCase(nome) && data.contains(expense.getData())) {
+            String expenseData = data.split(" ")[0];
+            System.out.println("Sto controlando: " + expense.getNome() + " " + expense.getData() + " con " + nome + " " + expenseData);
+            if (nome.equalsIgnoreCase(expense.getNome()) && expenseData.equals(expense.getData())) {
                 expenseRepo.deleteById(expense.getId());
                 return;
             }
